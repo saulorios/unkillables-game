@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sea { 
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    height: 100%;
+    align-items: center;
+}
+.title-game {
+    font-size: large;
+    width: 100%;
+    height: 40px;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    color: red;
+    font-family: 'Nosifer', cursive;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+.quadrant {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00dfff;
+    border: 1px solid #006994;
+}
+.grid div {
+    width: 10px;
+    height: 10px;
+}
+.column {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    border: 1px solid #ccc;
+    height: 10px;
+    width: 10px;
+    margin: 0;
+}
+.target {
+    background-color: #006994;
+}
+.death {
+    background-color: red;
+}
+.location {
+    text-align: left;
+}
+.dashboard {
+    width: 800px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.labelName {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.inputText {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #00dfff;
+    outline: none;
+    color: blue;
+    box-shadow: 0 4px 3px -5px black;
+}
+.positions {
+    display: flex;
+    justify-content: space-between;
+}
+.posit {
+    display: flex;
+    flex-direction: column;
+}
+.fire-div {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.fire-btn{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: red;
+    border: none;
+    box-shadow: 0 6px 4px -4px black;
+    color: #fff;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    outline: none;
+}
+.score {
+    color: red;
+    font-size: 20px;
+    font-family: 'Nosifer', cursive;
+}
